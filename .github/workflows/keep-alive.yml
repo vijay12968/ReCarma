@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Ping Render backend health endpoint
         run: |
-          curl -X GET https://recarma-backend.onrender.com/api/health
+          curl -X GET https://recarma.onrender.com/api/health
